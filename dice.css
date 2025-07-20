@@ -116,6 +116,96 @@ h1::before{
     width: 170px;
     box-shadow: 2px 6px 10px 2px white;
 }
+/* For tablets (768px) */
+@media (max-width: 768px) {
+    h1 {
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .result {
+        font-size: 100px;
+        text-align: center;
+        margin-top: 1px;
+    }
+
+    .box {
+        margin-left: 130px;
+        width: 150px;
+    }
+
+    #roll {
+        margin-left: 135px;
+        width: 140px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    #roll:hover{
+        width: 150px;
+    }
+}
+
+/* For mobile large (425px) */
+@media (max-width: 425px) {
+    body{
+        overflow: hidden;
+        height: 700px;
+    }
+   h1{
+    font-size: 20px;
+    margin-left: -45px;
+   }
+    .result {
+        font-size: 70px;
+    }
+
+    .box {
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 180px;
+        height:100px ;
+    }
+
+    #roll {
+        margin-left: 47px;
+        width: 100px;
+        font-size: 14px;
+    }
+    #roll:hover{
+        width: 110px;
+    }
+}
+
+/* For mobile small (320px) */
+@media (max-width: 320px) {
+    body{
+        overflow: hidden;
+        height: 700px;
+    }
+   h1{
+    font-size: 20px;
+    margin-left: -45px;
+   }
+    .result {
+        font-size: 70px;
+    }
+
+    .box {
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 180px;
+        height:100px ;
+    }
+
+    #roll {
+        margin-left: 47px;
+        width: 100px;
+        font-size: 14px;
+    }
+    #roll:hover{
+        width: 110px;
+    }
+}
   
 
 
